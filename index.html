@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy-Fix | טכנאי מחשבים</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            text-align: center; /* טקסט ממורכז */
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            background-color: #444;
+            padding: 5px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            background-color: #fff;
+            max-width: 800px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: right; /* טקסט מיישור לימין */
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        /* סגנון לכפתור צוף */
+        .whatsapp-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: none;
+        }
+        .whatsapp-btn:hover {
+            background-color: #128c7e;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Easy-Fix | טכנאי מחשבים</h1>
+    </header>
+    <nav>
+        <a href="#services">שירותים</a>
+        <a href="#about">אודות</a>
+        <a href="#contact">צור קשר</a>
+    </nav>
+    <section id="services">
+        <h2>שירותים</h2>
+        <ul>
+            <li>תיקון תקלות חומרה ותוכנה</li>
+            <li>התקנת תוכנות ומערכות הפעלה</li>
+            <li>שדרוג ותחזוקת מחשבים נייחים וניידים</li>
+            <li>שירותי תחזוקה מותאמים אישית</li>
+        </ul>
+    </section>
+    <section id="about">
+        <h2>אודות Easy-Fix</h2>
+        <p>Easy-Fix הוא חברה המתמקדת בתחום הטכנולוגיה והמחשוב, ומציעה שירותי תיקונים ותחזוקה למגוון צרכים. אנו מספקים פתרונות ייחודיים ואיכותיים במחירים נוחים לכלל הלקוחות.</p>
+    </section>
+    <section id="contact">
+        <h2>צור קשר</h2>
+        <p>כתובת: רחוב המלאכה 10, תל אביב</p>
+        <p>טלפון: 03-1234567</p>
+        <p>דוא"ל: info@easyfix.co.il</p>
+    </section>
+    <footer>
+        <p>כל הזכויות שמורות &copy; 2024 Easy-Fix | טכנאי מחשבים</p>
+    </footer>
+
+    <!-- כפתור צוף לוואטסאפ -->
+    <a href="https://wa.me/טלפון-לועדכן" target="_blank" class="whatsapp-btn" id="whatsapp-btn">צור קשר בוואטסאפ</a>
+
+    <!-- סקריפט להצגת הכפתור צוף -->
+    <script>
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("whatsapp-btn").style.display = "block";
+            } else {
+                document.getElementById("whatsapp-btn").style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
