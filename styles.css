@@ -1,64 +1,34 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f2f2f2;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>תמיכה | Easy-Fix</title>
+    <link rel="stylesheet" href="styles.css"> <!-- קישור לקובץ CSS חיצוני -->
+</head>
+<body>
+    <header>
+        <h1>Easy-Fix | טכנאי מחשבים</h1>
+    </header>
+    <nav>
+        <a href="index.html">בית</a>
+        <a href="index.html#contact">הזמן טכנאי</a>
+    </nav>
+    <section id="support">
+        <h2>תמיכה</h2>
+        <p>אם יש לכם שאלות או בעיות, אנחנו כאן לעזור!</p>
+        <p>להלן פרטי התמיכה שלנו:</p>
+        <ul>
+            <li>טלפון: 050-333-6717</li>
+            <li>דוא"ל: support@easyfix.co.il</li>
+        </ul>
+    </section>
+    <footer>
+        <p>כל הזכויות שמורות &copy; 2024 Easy-Fix | טכנאי מחשבים</p>
+    </footer>
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-}
+    <!-- כפתור ווצאפ -->
+    <a href="https://wa.me/0503336717" target="_blank" class="whatsapp-btn" id="whatsapp-btn">הזמינו טכנאי</a>
 
-header h1 {
-    margin: 0;
-}
-
-nav {
-    text-align: center;
-    background-color: #444;
-    padding: 5px 0;
-}
-
-nav a {
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 20px;
-}
-
-nav a:hover {
-    background-color: #555;
-}
-
-section {
-    padding: 20px;
-    margin: 20px auto;
-    background-color: #fff;
-    max-width: 800px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-section ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-section li {
-    padding: 10px 0;
-}
-
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
+</body>
+</html>
