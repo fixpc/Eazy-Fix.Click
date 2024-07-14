@@ -4,6 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Easy-Fix | טכנאי מחשבים</title>
+    <link rel="stylesheet" href="styles.css"> <!-- קישור לקובץ CSS חיצוני -->
+</head>
+<body>
+    <header>
+        <h1>Easy-Fix | טכנאי מחשבים</h1>
+    </header>
+    <nav>
+        <a href="#about">בית</a>
+        <a href="#support">תמיכה</a> <!-- קישור ישיר לסקשן התמיכה -->
+    </nav>
+    <section id="about">
+        <h2>השירותים שלנו</h2>
+        <!-- תוכן הסקשן -->
+    </section>
+    <section id="support">
+        <h2>תמיכה</h2>
+        <!-- תוכן הסקשן -->
+    </section>
+    <footer>
+        <p>כל הזכויות שמורות &copy; 2024 Easy-Fix | טכנאי מחשבים</p>
+    </footer>
+
+    <!-- כפתור ווצאפ -->
+    <a href="https://wa.me/0503336717" target="_blank" class="whatsapp-btn" id="whatsapp-btn">הזמינו טכנאי</a>
+
+    <!-- סקריפט להצגת הכפתור צוף -->
+    <script>
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("whatsapp-btn").style.display = "block";
+            } else {
+                document.getElementById("whatsapp-btn").style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+</html>
+
+    <title>Easy-Fix | טכנאי מחשבים</title>
     <style>
         body {
             font-family: Arial, sans-serif;
