@@ -5,44 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Easy-Fix | טכנאי מחשבים</title>
     <link rel="stylesheet" href="styles.css"> <!-- קישור לקובץ CSS חיצוני -->
-</head>
-
-  
-    <footer>
-        <p>כל הזכויות שמורות &copy; 2024 Easy-Fix | טכנאי מחשבים</p>
-    </footer>
-
-    <!-- כפתור ווצאפ -->
-    <a href="https://wa.me/0503336717" target="_blank" class="whatsapp-btn" id="whatsapp-btn">הזמינו טכנאי</a>
-
-    <!-- סקריפט להצגת הכפתור צוף -->
-    <script>
-        window.onscroll = function() {scrollFunction()};
-
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                document.getElementById("whatsapp-btn").style.display = "block";
-            } else {
-                document.getElementById("whatsapp-btn").style.display = "none";
-            }
-        }
-    </script>
-
-</body>
-</html>
-
-    <title>Easy-Fix | טכנאי מחשבים</title>
     <style>
+        /* סגנונות כלליים */
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            background-color: #f2f2f2;
+            background-color: #000; /* רקע שחור */
+            color: #fff; /* טקסט לבן */
             margin: 0;
             padding: 0;
             text-align: center; /* טקסט ממורכז */
         }
         header {
-            background-color: #333;
+            background-color: #222; /* צבע כהה יותר לכותרת */
             color: #fff;
             padding: 10px 0;
         }
@@ -51,26 +26,25 @@
         }
         nav {
             text-align: center;
-            background-color: #444;
+            background-color: #333;
             padding: 5px 0;
         }
         nav a {
             color: #fff;
             text-decoration: none;
             padding: 10px 20px;
+            display: inline-block;
         }
         nav a:hover {
-            background-color: #555;
+            background-color: #444;
         }
         section {
             padding: 20px;
             margin: 20px auto;
-            background-color: #fff;
+            background-color: #111; /* צבע כהה יותר לחלקי התוכן */
             max-width: 800px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
             text-align: center; /* מיישור למרכז */
-            margin-left: auto;
-            margin-right: auto;
         }
         section ul {
             list-style-type: none; /* לא מציג נקודות */
@@ -82,13 +56,13 @@
         footer {
             text-align: center;
             padding: 10px;
-            background-color: #333;
+            background-color: #222; /* צבע כהה יותר לרגל */
             color: #fff;
             position: fixed;
             bottom: 0;
             width: 100%;
         }
-        /* סגנון לכפתור צוף */
+        /* סגנון לכפתור צף */
         .whatsapp-btn {
             position: fixed;
             bottom: 20px;
@@ -98,7 +72,7 @@
             padding: 10px 20px;
             border-radius: 5px;
             text-decoration: none;
-            display: none;
+            display: none; /* נעלם על פי ברירת המחדל */
         }
         .whatsapp-btn:hover {
             background-color: #128c7e;
@@ -112,89 +86,18 @@
     <nav>
         <a href="#about">בית</a>
         <a href="#contact">הזמן טכנאי</a>
-		<a href="#support">תמיכה</a> <!-- קישור לעמוד התמיכה -->
+        <a href="#support">תמיכה</a> <!-- קישור לעמוד התמיכה -->
     </nav>
     <section id="about">
-        <!DOCTYPE html>
-<html lang="he">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>השירותים שלנו</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-    }
-    .services {
-      margin-bottom: 20px;
-    }
-    .services-title {
-      margin-bottom: 10px;
-      text-align: center;
-    }
-    .services-list {
-      list-style-type: none;
-      padding: 0;
-      text-align: center;
-    }
-    .services-list li {
-      margin-bottom: 10px;
-    }
-  </style>
-</head>
-<body dir="rtl">
-  <div class="services">
-    <h2 class="services-title">🛠️ השירותים שלנו:</h2>
-    <hr>
-    <ul class="services-list">
-      <li>🔧 תיקון תקלות חומרה ותוכנה</li>
-      <li>🖥️ התקנת תוכנות ומערכות הפעלה</li>
-      <li>💻 שדרוג ותחזוקת מחשבים נייחים וניידים</li>
-      <li>🔩 שירותי תחזוקה מותאמים אישית</li>
-    </ul>
-  </div>
-  
-  <p>אנו כאן כדי לעזור לכם לשמור על ביצועים גבוהים ולהבטיח שהטכנולוגיה שלכם פועלת בצורה מיטבית!</p>
-</body>
-</html>
-</p>
-
-<!DOCTYPE html>
-<html lang="he">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>חסכו כסף על מחשבים</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-    }
-    .content {
-      margin: 20px;
-    }
-    .text {
-      font-size: 18px;
-      line-height: 1.6;
-      margin-bottom: 20px;
-    }
-    .emoji {
-      font-size: 36px;
-      margin-bottom: 10px;
-    }
-  </style>
-</head>
-<body dir="rtl">
-  <div class="content">
-    <div class="emoji">💻🔧</div>
-    <h2>רוצים לחסוך אלפי שקלים?</h2>
-    <p class="text">המחשב הישן שלכם שווה יותר ממה שחשבתם! לא נמאס לכם לשלם יותר ולקבל פחות? אתם בטח אומרים לעצמכם "המחשב הזה עשה את שלו". במקום ללכת לקנות מחשב חדש וזול, כי זה מה שרוב הלקוחות מחפשים, מתקנים את המחשב הישן שברוב המקרים החומרה שנמצאת בו טובה בהרבה ממה שמציעים לכם!! ככה אתם חוסכים כסף, שומרים על איכות הסביבה ונהנים ממחשב טוב לאחר טיפול לעוד כמה שנים טובות. כל מה שאתם צריכים זה טכנאי מחשבים מקצועי שישדרג לכם את</p>
-    <div class="emoji">🛠️💡</div>
-    <h3>טכנאי המחשבים שלנו יכול לעזור לך!</h3>
-  </div>
-</body>
-</html>
-
+        <h2>🛠️ השירותים שלנו:</h2>
+        <hr>
+        <ul>
+            <li>🔧 תיקון תקלות חומרה ותוכנה</li>
+            <li>🖥️ התקנת תוכנות ומערכות הפעלה</li>
+            <li>💻 שדרוג ותחזוקת מחשבים נייחים וניידים</li>
+            <li>🔩 שירותי תחזוקה מותאמים אישית</li>
+        </ul>
+        <p>אנו כאן כדי לעזור לכם לשמור על ביצועים גבוהים ולהבטיח שהטכנולוגיה שלכם פועלת בצורה מיטבית!</p>
     </section>
     <section id="contact">
         <h2>צור קשר</h2>
@@ -206,10 +109,10 @@
         <p>כל הזכויות שמורות &copy; 2024 Easy-Fix | טכנאי מחשבים</p>
     </footer>
 
-    <!-- כפתור צוף לוואטסאפ -->
+    <!-- כפתור צף לוואטסאפ -->
     <a href="https://wa.me/0503336717" target="_blank" class="whatsapp-btn" id="whatsapp-btn">הזמינו טכנאי</a>
 
-    <!-- סקריפט להצגת הכפתור צוף -->
+    <!-- סקריפט להצגת הכפתור צף -->
     <script>
         window.onscroll = function() {scrollFunction()};
 
