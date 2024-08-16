@@ -1,9 +1,9 @@
-/* הגדרות כלליות */
+/* עיצוב כללי */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    direction: rtl; /* כיוון כתיבה מימין לשמאל */
+    direction: rtl; /* מימין לשמאל */
     background-color: #f4f4f4;
 }
 
@@ -26,7 +26,6 @@ nav a {
     color: #fff;
     margin: 0 15px;
     text-decoration: none;
-    font-weight: bold;
 }
 
 nav a:hover {
@@ -44,23 +43,13 @@ section#support {
 
 section#support h2 {
     color: #333;
+    text-align: center;
 }
 
-section#support p {
-    line-height: 1.6;
-    margin: 10px 0;
-}
-
+section#support p,
 section#support ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-section#support ul li {
-    background-color: #e7e7e7;
-    margin: 5px 0;
-    padding: 10px;
-    border-radius: 3px;
+    text-align: center;
+    margin: 10px 0;
 }
 
 /* עיצוב כפתור ווצאפ צף */
@@ -90,7 +79,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 15px;
-    position: absolute;
+    position: relative;
     width: 100%;
-    bottom: 0;
+    margin-top: 20px;
 }
